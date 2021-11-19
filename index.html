@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Proyecto con flex</title>
+</head>
+<body>
+
+    <!--header-->
+    <nav class="filtros">
+        <h1>CUTE CATS ARE LOOKING FOR A HOME</h1>
+
+        <div class="sort">
+            <div class="collection-sort">
+                <label for="edad">Filtro:</label>
+                <select id="edad">
+                    <option value="/">Todos</option> <!--mas opciones-->
+                    <option value="/">Mayores</option>
+                    <option value="/">Bebes</option>
+                </select>
+            </div>
+
+            <div class="collection-sort">
+                <label for="opcion">Elige:</label>
+                <select id="opcion">
+                    <option value="/">Apadrinar</option>
+                    <option value="/">Acoger</option>
+                    <option value="/">Adoptar</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+
+    <!--flex-->
+    <main class="gatetes">
+
+        <div class="michi">
+            <div class="foto"><img src="./img/gato1.jpg" alt="gato1"></div>
+            <div class="info">
+                <h5>MANOLO</h5>
+                <h6>5 años</h6>
+                <p>Especialista en muebles</p>
+            </div>
+        </div>
+
+        <div class="michi">
+            <div class="foto"><img src="./img/gato2.jpg" alt="gato2"></div>
+            <div class="info">
+                <h5>ESCOBA</h5>
+                <h6>4 años</h6>
+                <p>Especialista en (barrer) suelos</p>
+            </div>
+        </div>
+
+        <div class="michi">
+            <div class="foto"><img src="./img/gato3.png" alt="gato3"></div>
+            <div class="info">
+                <h5>RICK</h5>
+                <h6>¿3 años?</h6>
+                <p>No lo sé, parece falso</p>
+            </div>
+        </div>
+
+        <div class="michi">
+            <div class="foto"><img src="./img/gato4.jpg" alt="gato4"></div>
+            <div class="info">
+                <h5>NEO</h5>
+                <h6>7 años</h6>
+                <p>El sofá es su Matrix</p>
+            </div>
+        </div>
+
+        <div class="michi">
+            <div class="foto"><img src="./img/gato5.png" alt="gato5"></div>
+            <div class="info">
+                <h5>ZIPI y ZAPE</h5>
+                <h6>3 meses</h6>
+                <p>Se duermen con el baby shark</p>
+            </div>
+        </div>
+
+        <div class="michi">
+            <div class="foto"><img src="./img/gato6.jpg" alt="gato6"></div>
+            <div class="info">
+                <h5>NUBE</h5>
+                <h6>1 año y 2 meses</h6>
+                <p>Sabe abrir SoundCloud</p>
+            </div>
+        </div>
+
+        <div class="michi">
+            <div class="foto"><img src="./img/gato7.jpg" alt="gato7"></div>
+            <div class="info">
+                <h5>CAYETANO</h5>
+                <h6>10 años</h6>
+                <p>Sólo come Purina One</p>
+            </div>
+        </div>
+        
+        <div class="michi">
+            <div class="foto"><img src="./img/gato8.png" alt="gato8"></div>
+            <div class="info">
+                <h5>PURRY</h5>
+                <h6>2 años y 6 meses</h6>
+                <p>Prepara la aspiradora</p>
+            </div>
+        </div>
+
+        <div class="michi">
+            <div class="foto"><img src="./img/gato9.png" alt="gato9"></div>
+            <div class="info">
+                <h5>LUNA</h5>
+                <h6>9 meses</h6>
+                <p>Cada 30 días desaparece</p>
+            </div>
+        </div>
+
+        <div class="michi">
+            <div class="foto"><img src="./img/gato10.jpg" alt="gato10"></div>
+            <div class="info">
+                <h5>LUISITO</h5>
+                <h6>5 meses</h6>
+                <p>Front-end programmer</p>
+            </div>
+        </div>
+
+    </main>
+    
+    <!--footer-->
+    <div class="footer">
+        <div class="columna">
+            <h6>CONTACTO</h6>
+            <p>Vigo, Pontevedra, 36200</p>
+            <p>986 986 986</p>
+            <p>adoptaunmichi@flex.com</p>
+        </div>
+        <div class="columna">
+            <h6>SOPORTE LEGAL</h6>
+            <p>Términos y Condiciones</p>
+            <p>Política de Privacidad</p>
+            <p>Política de Adopción</p>
+        </div>
+        <div class="columna">
+            <h6>SOBRE NOSOTROS</h6>
+            <p>Quiénes somos</p>
+            <p>Cómo colaborar con nosotros</p>
+            <p>Ayudas oficiales</p>
+        </div>
+        <div class="columna">
+            <h6>INFÓRMATE</h6>
+            <p>Noticias, novedades y eventos</p>
+            <textarea rows="2" cols="30" placeholder="Envíanos un comentario"></textarea>
+            <button type="button">Enviar</button>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
